@@ -1,8 +1,8 @@
 local set = loadstring(game:HttpGet("https://pastebin.com/raw/vku3BVMj"))()
 local s={
   ["Settings"] = {
-    ["toggle"] = set:Whitelist(),
-    ["version"] = set.VersionWhitelist 
+    ["toggle"] = set.Main:Whitelist(),
+    ["version"] = set.Main.VersionWhitelist 
   },
   ["Keys"] = {
     set:GrabKeys()
