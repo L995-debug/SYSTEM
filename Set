@@ -5,7 +5,7 @@ local s={
     ["version"] = set.Main.VersionWhitelist 
   },
   ["Keys"] = {
-    set:GrabKeys()
+    set.Other:GrabKeys()
   }
 }
 
