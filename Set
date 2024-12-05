@@ -8,3 +8,5 @@ local s={
     set:GrabKeys()
   }
 }
+
+return s
