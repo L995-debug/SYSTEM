@@ -1,0 +1,10 @@
+local set = loadstring(game:HttpGet("https://pastebin.com/raw/gYJEBfVb"))()
+local s={
+  ["Settings"] = {
+    ["toggle"] = set:Whitelist(),
+    ["version"] = set:VersionWhitelist()
+  },
+  ["Keys"] = {
+    set:GrabKeys()
+  }
+}
