@@ -5,13 +5,8 @@ local s={
     ["version"] = set.returnsecured().Main.VersionWhitelist 
   },
   ["Keys"] = {
-    set.Other:GrabKeys()
+    set.returnsecured().Other:GrabKeys()
   }
 }
 
 return s
-local set = loadstring(game:HttpGet("https://raw.githubusercontent.com/DINERO9/TXXK-9988332231C/refs/heads/main/PROTECTED_FUNCTIONS"))()
-
-for l,v in next,set.returnsecured() do 
-print(l,v)
-end
